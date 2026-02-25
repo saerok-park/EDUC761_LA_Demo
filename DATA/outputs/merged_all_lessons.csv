@@ -1,0 +1,636 @@
+﻿unnamed: 0.1,unnamed: 0,timestamp,turn,speaker,sentence,teacher_tag,student_tag,damsltag,dialogact,lesson_id,turn_num,_row,role
+0,0,,1.0,T,Watch what I am doing.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,1.0,529,teacher
+1,1,,1.0,T,Alright.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,1.0,530,teacher
+2,2,,1.0,T,"So, What does this look like?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,1.0,531,teacher
+3,3,,2.0,Ariel,An H,,4 - Making a Claim,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,2.0,532,student
+4,4,,3.0,T,"Maybe, its possible.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,3.0,533,teacher
+5,5,,3.0,T,How many rods do I have here?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,3.0,534,teacher
+6,6,,4.0,James and Ariel,Five.,,4 - Making a Claim,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,4.0,535,student
+7,7,,5.0,T,Five right?,2 - Keeping Everyone Together,,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,5.0,536,teacher
+8,8,,5.0,T,If I do like this?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,5.0,537,teacher
+9,9,,5.0,T,What does this now look like for you?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,5.0,538,teacher
+10,10,,6.0,Ariel,A chain or a necklace or something?,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,6.0,539,student
+11,11,,7.0,T,suppose it stands up?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,7.0,540,teacher
+12,12,,8.0,Ariel,A building?,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,8.0,541,student
+13,13,,9.0,James,Like a tower.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,9.0,542,student
+14,14,,10.0,T,If its stand what would you call it?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,10.0,543,teacher
+15,15,,11.0,Ariel,A building,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,11.0,544,student
+16,16,,12.0,T,"Hm, Very good.",1 - None,,ba,Appreciation,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,12.0,545,teacher
+17,17,,12.0,T,Well you can call it so many different names.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,12.0,546,teacher
+18,18,,12.0,T,I am going to call it a ladder.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,12.0,547,teacher
+19,19,,12.0,T,Does it look like one?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,12.0,548,teacher
+20,20,,13.0,T,"In this particular case, what would you call this if we called this a ladder?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,13.0,549,teacher
+21,21,,14.0,James,A step?,7 - Context,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,14.0,550,student
+22,22,,15.0,T,Step.,4 - Restating,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,15.0,551,teacher
+23,23,,15.0,T,Ok so how many steps do we have?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,15.0,552,teacher
+24,24,,16.0,James and Ariel,Two.,,4 - Making a Claim,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,16.0,553,student
+25,25,,17.0,T,Ok so going back to the previous one that you called eight.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,17.0,554,teacher
+26,26,,17.0,T,Could that also be a ladder.,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,17.0,555,teacher
+27,27,,18.0,James,Yes,,1 - None,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,18.0,556,student
+28,28,,19.0,T,How many steps?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,19.0,557,teacher
+29,29,,20.0,James,One.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,20.0,558,student
+30,30,,21.0,T,So this one is a ladder with one step and how many blocks?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,21.0,559,teacher
+31,31,,21.0,T,Rather rods we call it.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,21.0,560,teacher
+32,32,,22.0,James and Ariel,Five.,,4 - Making a Claim,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,22.0,561,student
+33,33,,23.0,T,And now this is a ladder with  two right?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,23.0,562,teacher
+34,34,,23.0,T,And how many?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,23.0,563,teacher
+35,35,,24.0,James,eight,7 - Context,4 - Making a Claim,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,24.0,564,student
+36,36,,25.0,T,eight.,4 - Restating,,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,25.0,565,teacher
+37,37,,25.0,T,so my question.. so you can build it as high as you want.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,25.0,566,teacher
+38,38,,25.0,T,So my question to you is that how many would that be if we had …rods.. how many would we need to build a ladder with 10 steps?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,25.0,567,teacher
+39,39,,26.0,Ariel,"Wow, three steps.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,26.0,568,student
+40,40,,26.0,Ariel,"Ah, I got an idea.",,1 - None,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,26.0,569,student
+41,41,,27.0,James,I got it.,,1 - None,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,27.0,570,student
+42,42,,27.0,James,Thirty-four.,7 - Context,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,27.0,571,student
+43,43,,28.0,T,Thirty four.,4 - Restating,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,28.0,572,teacher
+44,44,,28.0,T,For ten?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,28.0,573,teacher
+45,45,,29.0,Ariel,For ten.,,1 - None,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,29.0,574,student
+46,46,,30.0,T,What do you think?,3 - Getting Students to Relate,,qy,Yes-No-Question,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,30.0,575,teacher
+47,47,,30.0,T,You also have the same number.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,30.0,576,teacher
+48,48,,31.0,James,Thirty-four.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,31.0,577,student
+49,49,,32.0,T,Thirty-four?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,32.0,578,teacher
+50,50,,33.0,James,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,33.0,579,student
+51,51,,34.0,T,Those have ten.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,34.0,580,teacher
+52,52,,34.0,T,I don’t see ten steps.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,34.0,581,teacher
+53,53,,34.0,T,How do you …?,8 - Press for Accuracy,,qy,Yes-No-Question,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,34.0,582,teacher
+54,54,,35.0,Ariel,Five.,,5 - Providing Evidence / Explaining Reasoning,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,35.0,583,student
+55,55,,35.0,Ariel,I counted how many rods it is and then I just multiplied by two because five times two is ten.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,35.0,584,student
+56,56,,35.0,Ariel,"It was seventeen rods, so seventeen times two is thirty-four.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,35.0,585,student
+57,57,,36.0,T,"Uh, uh, again, again, slowly.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,36.0,586,teacher
+58,58,,36.0,T,You are so fast for me.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,36.0,587,teacher
+59,59,,37.0,Ariel,"OK, I did five steps, and then I counted how many rods that was.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,37.0,588,student
+60,60,,37.0,Ariel,"It was seventeen and since five is half of ten, five times two is ten, so I just multiplied the number of rods by two and I got thirty-four for seventeen rods.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,37.0,589,student
+61,61,,38.0,T,So how would you get for hundred then?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,38.0,590,teacher
+62,62,,39.0,Ariel,Four hundred?,,1 - None,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,39.0,591,student
+63,63,,41.0,James,Two sixty-two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,41.0,592,student
+64,64,,41.0,James,I got two hundred and sixty-two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,41.0,593,student
+65,65,,41.0,James,There is an announcement over the PA system.,,1 - None,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,41.0,594,student
+66,66,,42.0,Ariel,I got one thousand three hundred and sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,42.0,595,student
+67,67,,43.0,James,I just do this by times eighty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,43.0,596,student
+68,68,,44.0,T,How much?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,44.0,597,teacher
+69,69,,44.0,T,How many you got?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,44.0,598,teacher
+70,70,,45.0,James,Thirteen sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,45.0,599,student
+71,71,,46.0,T,We have to find a way to figure this out whether it is right or wrong.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,46.0,600,teacher
+72,72,,47.0,Ariel,It is right.,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,47.0,601,student
+73,73,,48.0,T,It can’t be that for a hundred.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,48.0,602,teacher
+74,74,,49.0,Ariel,"Look, ten is thirty-four and ten times ten is one hundred, so thirty-four times ten is three hundred and forty – let me write that – OK, then three hundred and forty times four which would be three hundred forty equals one hundred rods, so three hundred and forty times four would be one thousand three hundred and sixty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,49.0,603,student
+75,75,,50.0,T,What is that four?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,50.0,604,teacher
+76,76,,51.0,Ariel,The hundreds.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,51.0,605,student
+77,77,,52.0,James,I got a different one.,,2 - Relating to Another Student,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,52.0,606,student
+78,78,,53.0,James,"… which is eighty, so I had to multiply, seventeen times eighty.",,2 - Relating to Another Student,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,53.0,607,student
+79,79,,54.0,T,So let’s see.,1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,54.0,608,teacher
+80,80,,54.0,T,"You are saying that thirty-four is what, it is the number of rods.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,54.0,609,teacher
+81,81,,54.0,T,What is that thirty-four comes from?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,54.0,610,teacher
+82,82,,55.0,Ariel,That is thirty-four rods you would use to make ten steps.,,4 - Making a Claim,sv,Statement-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,55.0,611,student
+83,83,,56.0,T,Then you are multiplying by …,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,56.0,612,teacher
+84,84,,57.0,Ariel,By ten because ten times ten is one hundred.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,57.0,613,student
+85,85,,58.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,58.0,614,teacher
+86,86,,59.0,Ariel,"So, thirty-four times ten is three hundred and forty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,59.0,615,student
+87,87,,60.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,60.0,616,teacher
+88,88,,61.0,Ariel,"And for four hundred, it would be three hundred and forty times four, since three hundred and forty would be one hundred steps so one hundred times four is four hundred.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,61.0,617,student
+89,89,,62.0,T,What is that four come from?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,62.0,618,teacher
+90,90,,63.0,Ariel,The one hundred times four.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,63.0,619,student
+91,91,,64.0,T,One hundred times four?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,64.0,620,teacher
+92,92,,64.0,T,What is that four?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,64.0,621,teacher
+93,93,,65.0,Ariel,The steps.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,65.0,622,student
+94,94,,66.0,T,"But, I am asking for a hundred steps.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,66.0,623,teacher
+95,95,,67.0,Ariel,What?,,1 - None,ba,Appreciation,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,67.0,624,student
+96,96,,68.0,T,"We are saying for a hundred, right?",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,68.0,625,teacher
+97,97,,69.0,Ariel,You said four hundred.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,69.0,626,student
+98,98,,70.0,T,"No, I said for a hundred, a hundred.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,70.0,627,teacher
+99,99,,71.0,Ariel,Oh!,,1 - None,%,Uninterpretable,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,71.0,628,student
+100,100,,72.0,T,"I am sorry, did you understand four hundred?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,72.0,629,teacher
+101,101,,73.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,73.0,630,student
+102,102,,74.0,T,"I am sorry, I meant a hundred.",1 - None,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,74.0,631,teacher
+103,103,,75.0,Ariel,"Oh, three hundred and forty.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,75.0,632,student
+104,104,,76.0,T,Three hundred and forty?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,76.0,633,teacher
+105,105,,77.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 1_ Grade 7.xlsx_with_dialog_acts,77.0,634,student
+0,0,,1.0,T,"So, how about for eight?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,1.0,310,teacher
+1,1,,1.0,T,"So you’re saying, so how would you do for eight?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,1.0,311,teacher
+2,2,,2.0,Ariel,For eight?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,2.0,312,student
+3,3,,3.0,T,"So your saying, your taking..",1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,3.0,313,teacher
+4,4,,3.0,T,So why did you pick thirty-four?,9 - Press for Reasoning,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,3.0,314,teacher
+5,5,,4.0,Ariel,Because um ten steps is thirty-four.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,4.0,315,student
+6,6,,5.0,T,"So out of this hundred, you chose ten, right?",2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,5.0,316,teacher
+7,7,,5.0,T,"You fix ten which has thirty-four, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,5.0,317,teacher
+8,8,,5.0,T,"How would you do for four, how would you do for eight?",8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,5.0,318,teacher
+9,9,,6.0,Ariel,For eight?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,6.0,319,student
+10,10,,7.0,T,Using the same idea.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,7.0,320,teacher
+11,11,,8.0,James,What?,,1 - None,ba,Appreciation,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,8.0,321,student
+12,12,,8.0,James,Eight what?,,3 - Asking for More Information,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,8.0,322,student
+13,13,,9.0,T,A ladder with eight steps.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,9.0,323,teacher
+14,14,,10.0,Ariel,"One, two, three, four, five, six, seven, eight.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,10.0,324,student
+15,15,,11.0,Ariel,"Ah, here I go.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,11.0,325,student
+16,16,,11.0,Ariel,"One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, twenty-one, twenty-two, twenty-three, twenty- four, twenty-five, twenty-six.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,11.0,326,student
+17,17,,11.0,Ariel,Ahh?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,11.0,327,student
+18,18,,12.0,Ariel,"One, two, three, four, five, six, seven, eight.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,12.0,328,student
+19,19,,12.0,Ariel,How the heck?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,12.0,329,student
+20,20,,13.0,James,Any questions?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,13.0,330,student
+21,21,,14.0,T,So how many did you find.,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,14.0,331,teacher
+22,22,,15.0,Ariel,"Because the four steps . One, two, three, four.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,15.0,332,student
+23,23,,16.0,Ariel,"One, two, three, four.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,16.0,333,student
+24,24,,16.0,Ariel,"Take this whole thing off, right?",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,16.0,334,student
+25,25,,17.0,James,Do you know an easier way?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,17.0,335,student
+26,26,,18.0,Ariel,You have four steps right?,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,18.0,336,student
+27,27,,18.0,Ariel,"One, two, three, four.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,18.0,337,student
+28,28,,19.0,Ariel,"Now, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,19.0,338,student
+29,29,,21.0,T,"So how many in total for eight, for a ladder with eight steps?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,21.0,339,teacher
+30,30,,21.0,T,How many is that?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,21.0,340,teacher
+31,31,,22.0,Ariel,So the rods … you multiply by two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,22.0,341,student
+32,32,,23.0,James,"But when you add four more, you add three more steps for each one.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,23.0,342,student
+33,33,,23.0,James,"So for another step that’s three blocks, for another step there that’s three blocks and that equals twelve, so fourteen plus twelve is twenty- six.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,23.0,343,student
+34,34,,24.0,Ariel,Nice.,,1 - None,aa,Agree/Accept,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,24.0,344,student
+35,35,,25.0,James,So these two must be wrong.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,25.0,345,student
+36,36,,26.0,Ariel,Which one?,,3 - Asking for More Information,aa,Agree/Accept,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,26.0,346,student
+37,37,,26.0,Ariel,"Oh, the ten one?",,3 - Asking for More Information,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,26.0,347,student
+38,38,,27.0,James,"Then, you’d have to multiply that by thirty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,27.0,348,student
+39,39,,27.0,James,"Yeah, I had to multiply that by thirty and then divide it by five, which is that six and then seventeen times six.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,27.0,349,student
+40,40,,27.0,James,And that’s how you get the answer.,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,27.0,350,student
+41,41,,28.0,T,"So are we sure about, is the hundred sure, is that correct now?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,28.0,351,teacher
+42,42,,28.0,T,"Are we sure that, it’s right now?",2 - Keeping Everyone Together,,aa,Agree/Accept,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,28.0,352,teacher
+43,43,,29.0,James,Three twelve.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,29.0,353,student
+44,44,,30.0,Ariel,I got to go at 3:30.. Or else I’ll be stuck..,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,30.0,354,student
+45,45,,31.0,Ariel,"How many steps we got.. One, two, three, four, five, six, seven, eight, nine, ten.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,31.0,355,student
+46,46,,32.0,T,Which one you are doing now?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,32.0,356,teacher
+47,47,,33.0,Ariel,"Thirty, I give up man.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,33.0,357,student
+48,48,,34.0,T,"Thirty, what?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,34.0,358,teacher
+49,49,,35.0,Ariel,Thirty-two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,35.0,359,student
+50,50,,36.0,T,Thirty-two for what?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,36.0,360,teacher
+51,51,,37.0,Ariel,For this one the ten steps.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,37.0,361,student
+52,52,,38.0,T,You have got ten steps there?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,38.0,362,teacher
+53,53,,39.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,39.0,363,student
+54,54,,40.0,T,So thirty-two and how many you said you had for a hundred?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,40.0,364,teacher
+55,55,,41.0,Ariel,For a hundred steps three hundred and forty so it will be three twenty.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,41.0,365,student
+56,56,,42.0,T,"Wow, I am a little confused, you are just giving me numbers and I don’t understand how you are doing them like if you have for a hundred, right, you said you do what.",1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,42.0,366,teacher
+57,57,,42.0,T,What do you do here to get a hundred?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,42.0,367,teacher
+58,58,,43.0,Ariel,Eh?,,1 - None,ba,Appreciation,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,43.0,368,student
+59,59,,44.0,T,What did you do to get the number of rods for a ladder with ten and then hundred?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,44.0,369,teacher
+60,60,,45.0,Ariel,"Oh, a ladder with ten?",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,45.0,370,student
+61,61,,45.0,Ariel,I just did five and then I multiplied and we have seventeen rods and then I did that again and it was thirty-four.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,45.0,371,student
+62,62,,45.0,Ariel,So then I went over here and thirty-four times ten.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,45.0,372,student
+63,63,,46.0,T,Where is this thirty-four come from?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,46.0,373,teacher
+64,64,,47.0,Ariel,The rods!,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,47.0,374,student
+65,65,,47.0,Ariel,It is wrong.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,47.0,375,student
+66,66,,47.0,Ariel,It is thirty-two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,47.0,376,student
+67,67,,48.0,T,So how we are going to know?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,48.0,377,teacher
+68,68,,48.0,T,We have to find a way to be able to tell how many rods no matter what number of steps.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,48.0,378,teacher
+69,69,,49.0,Ariel,I don’t know now.,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,49.0,379,student
+70,70,,49.0,Ariel,I just noticed like I just multiplied by two and subtract two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,49.0,380,student
+71,71,,50.0,T,"Say for eight, what would you do then for eight?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,50.0,381,teacher
+72,72,,51.0,Ariel,For eight?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,51.0,382,student
+73,73,,52.0,T,Using that multiply by two what would you do?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,52.0,383,teacher
+74,74,,53.0,Ariel,"It’d be fourteen for four, then times two.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,53.0,384,student
+75,75,,54.0,T,Why don’t you write it down,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,54.0,385,teacher
+76,76,,55.0,Ariel,"That is twenty eight then just minus two is twenty six, because that is the real one, twenty-six.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,55.0,386,student
+77,77,,56.0,T,"So, why fourteen?",9 - Press for Reasoning,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,56.0,387,teacher
+78,78,,57.0,Ariel,Because there is fourteen rods for four.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,57.0,388,student
+79,79,,58.0,T,"For four...Oh, four, so I ask you about eight.",1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,58.0,389,teacher
+80,80,,59.0,Ariel,"First I did that and then since four times two is eight, because you multiply it by two.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,59.0,390,student
+81,81,,60.0,T,So how about for sixteen?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,60.0,391,teacher
+82,82,,61.0,Ariel,Sixteen?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,61.0,392,student
+83,83,,62.0,T,Hmm.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,62.0,393,teacher
+84,84,,63.0,Ariel,"It will twenty-six plus twenty-six is twelve, it’s fifty-two.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,63.0,394,student
+85,85,,64.0,T,Why twenty-six?,9 - Press for Reasoning,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,64.0,395,teacher
+86,86,,64.0,T,Where does that twenty-six come from?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,64.0,396,teacher
+87,87,,65.0,Ariel,The number of these.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,65.0,397,student
+88,88,,65.0,Ariel,No!,,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,65.0,398,student
+89,89,,65.0,Ariel,That’s wrong.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,65.0,399,student
+90,90,,65.0,Ariel,It is fifty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,65.0,400,student
+91,91,,66.0,T,The way you are doing here is different from the way you are doing here.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,66.0,401,teacher
+92,92,,66.0,T,I don’t get this.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,66.0,402,teacher
+93,93,,67.0,Ariel,"Because here, for eight times two is sixteen.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,67.0,403,student
+94,94,,67.0,Ariel,"So one is twenty-six, so I multiplied twenty-six by two and I got fifty-two, so then I subtracted two, it is fifty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,67.0,404,student
+95,95,,68.0,T,Are you saying you multiplied here?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,68.0,405,teacher
+96,96,,69.0,Ariel,Huh?,,3 - Asking for More Information,%,Uninterpretable,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,69.0,406,student
+97,97,,70.0,T,Did you multiply here?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,70.0,407,teacher
+98,98,,71.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,71.0,408,student
+99,99,,72.0,T,Can you write here?,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,72.0,409,teacher
+100,100,,73.0,Ariel,I did it over here.,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,73.0,410,student
+101,101,,73.0,Ariel,"Twenty-six, twenty-six.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,73.0,411,student
+102,102,,74.0,T,"Oh, twenty-six times two and go on, go on and what do you get?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,74.0,412,teacher
+103,103,,75.0,Ariel,"Twenty-six times two is fifty two and I am subtracting two, minus two and that is fifty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,75.0,413,student
+104,104,,76.0,T,So that works all the time?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,76.0,414,teacher
+105,105,,77.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,77.0,415,student
+106,106,,78.0,T,So we try for seven.,1 - None,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,78.0,416,teacher
+107,107,,79.0,Ariel,Seven?,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,79.0,417,student
+108,108,,80.0,T,Yeah?,1 - None,,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,80.0,418,teacher
+109,109,,81.0,Ariel,"Hold on, man.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,81.0,419,student
+110,110,,82.0,T,"Before we do it, can we find... using this how will you do it?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,82.0,420,teacher
+111,111,,83.0,Ariel,Using what?,,3 - Asking for More Information,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,83.0,421,student
+112,112,,83.0,Ariel,That?,,3 - Asking for More Information,ba,Appreciation,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,83.0,422,student
+113,113,,84.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,84.0,423,teacher
+114,114,,85.0,Ariel,"Seven, right?",,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,85.0,424,student
+115,115,,86.0,Ariel,for six …,,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,86.0,425,student
+116,116,,87.0,T,For seven?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,87.0,426,teacher
+117,117,,88.0,Ariel,"OK, for seven.",,1 - None,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,88.0,427,student
+118,118,,88.0,Ariel,"For eight, it is twenty-six.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,88.0,428,student
+119,119,,88.0,Ariel,"So for that I would add three, that is twenty-nine.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,88.0,429,student
+120,120,,89.0,James,Twenty-three.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,89.0,430,student
+121,121,,90.0,Ariel,Twenty-nine.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,90.0,431,student
+122,122,,91.0,Ariel,"Oh, yeah, yeah.",,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,91.0,432,student
+123,123,,91.0,Ariel,"Twenty-three, twenty-three.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,91.0,433,student
+124,124,,92.0,T,So how many you have for seven?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,92.0,434,teacher
+125,125,,93.0,Ariel,I subtracted three from twenty-six.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,93.0,435,student
+126,126,,94.0,T,"Well but, you are doing differently now, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,94.0,436,teacher
+127,127,,95.0,Ariel,Yeah,,1 - None,b,Acknowledge (Backchannel),Ladder problem 2_Grade 7.xlsx_with_dialog_acts,95.0,437,student
+128,128,,96.0,T,"Because here you are doing like this, you are multiplying … so if I give you like a ladder for a certain number of steps then how you go about computing that … finding out the number of rods, if you did not want to build them?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,96.0,438,teacher
+129,129,,97.0,Ariel,"I take half of the number if it has a half, I will multiply it by two and subtract two.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,97.0,439,student
+130,130,,98.0,T,"So like for ten, how would you do that?",8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,98.0,440,teacher
+131,131,,99.0,Ariel,"I think a ladder of five, then count the rods, multiply that by two and subtract two.",7 - Context,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,99.0,441,student
+132,132,,100.0,T,And subtract two.,4 - Restating,,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,100.0,442,teacher
+133,133,,100.0,T,How would you do that for nine?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,100.0,443,teacher
+134,134,,101.0,Ariel,"For nine, I would do eight, then I would multiply the number by two and then I would subtract two and then I would add three.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 2_Grade 7.xlsx_with_dialog_acts,101.0,444,student
+0,0,,1.0,T,"So I got when you said … says that again …[the first way,] you seem to have so many ways of doing things that I get lost.",1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,1.0,138,teacher
+1,1,,3.0,T,"So if you have eight, what would you do?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,3.0,139,teacher
+2,2,,3.0,T,You divide the number in half …,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,3.0,140,teacher
+3,3,,4.0,Ariel,"Eight, right?",,4 - Making a Claim,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,4.0,141,student
+4,4,,5.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,5.0,142,teacher
+5,5,,6.0,Ariel,"I will take half of eight, that is four.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,6.0,143,student
+6,6,,6.0,Ariel,"I will make a ladder with four steps, I will count the rods and then I will multiply the number of rods by two and then from that answer that I got from multiplying the number of rods by two, I will subtract two.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,6.0,144,student
+7,7,,7.0,T,So you can do that for any number of steps?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,7.0,145,teacher
+8,8,,8.0,Ariel,"For numbers that do not have half, I will take the closest number and then do half and then subtract two and then add three.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,8.0,146,student
+9,9,,9.0,T,"So like for nine, what would be the closest number?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,9.0,147,teacher
+10,10,,10.0,Ariel,I will go to eight.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,10.0,148,student
+11,11,,11.0,T,"Huh, huh.",1 - None,,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,11.0,149,teacher
+12,12,,12.0,Ariel,I will subtract … or I can go to ten if I wanted to or what ever is easier …,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,12.0,150,student
+13,13,,13.0,T,"Huh, huh.",1 - None,,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,13.0,151,teacher
+14,14,,14.0,Ariel,"So I will go to eight, take half is four, count the rods, multiply by two, subtract two and then add three.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,14.0,152,student
+15,15,,15.0,T,"Wow, can you write it out?",1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,15.0,153,teacher
+16,16,,16.0,Ariel,Can’t I just show you?,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,16.0,154,student
+17,17,,17.0,T,No.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,17.0,155,teacher
+18,18,,17.0,T,But you also write it down what you are saying on a piece of paper.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,17.0,156,teacher
+19,19,,17.0,T,Write it up.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,17.0,157,teacher
+20,20,,17.0,T,"So you seem to have two rules, one when you have a half, one you don’t have a half.",1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,17.0,158,teacher
+21,21,,17.0,T,Right?,1 - None,,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,17.0,159,teacher
+22,22,,18.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,18.0,160,student
+23,23,,19.0,T,You said something.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,19.0,161,teacher
+24,24,,19.0,T,So can you write that out then we can keep talking about that.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,19.0,162,teacher
+25,25,,20.0,James,How many numbers you are trying to get when you multiply by two.,,3 - Asking for More Information,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,20.0,163,student
+26,26,,21.0,Ariel,I got to leave at three-thirty.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,21.0,164,student
+27,27,,23.0,T,"He is writing, he seems to have two ways of doing about it.",1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,23.0,165,teacher
+28,28,,24.0,Ariel,"For odd numbers, I go to the nearest even number and take ½ of that even number, count the rods for a ladder with that many steps, multiply it by two, subtract two... and add three.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,166,student
+29,29,,24.0,Ariel,Now I will show you.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,167,student
+30,30,,24.0,Ariel,"Say nine, it is odd.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,168,student
+31,31,,24.0,Ariel,I go to the even number eight.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,169,student
+32,32,,24.0,Ariel,And take half of eight equals four.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,170,student
+33,33,,24.0,Ariel,"I would make a ladder of four and then I would count . one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,171,student
+34,34,,24.0,Ariel,"Then I multiply fourteen which is the number of rods times two because four times two equals eight, gives me twenty eight and then I subtract two will give me twenty-six and then I would add three.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,24.0,172,student
+35,35,,25.0,Ariel,Because for every new thingy it is three rods and it will give me twenty nine.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,25.0,173,student
+36,36,,25.0,Ariel,I am the winner.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,25.0,174,student
+37,37,,26.0,T,"That is for odd numbers, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,26.0,175,teacher
+38,38,,27.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 3_Grade 7.xlsx_with_dialog_acts,27.0,176,student
+39,39,,28.0,T,"And for even numbers, you want to write for even numbers?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,28.0,177,teacher
+40,40,,29.0,Ariel,You just killed my …,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,29.0,178,student
+41,41,,30.0,T,You can write here.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,30.0,179,teacher
+42,42,,31.0,Ariel,You killed my happiness.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,31.0,180,student
+43,43,,32.0,T,You write so well.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,32.0,181,teacher
+44,44,,32.0,T,Your handwriting is good.,1 - None,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,32.0,182,teacher
+45,45,,33.0,James,`multiply by three to get your answer then subtract one.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,33.0,183,student
+46,46,,34.0,Ariel,"For even numbers, I take half of that number and make a ladder, oops I messed up, with that, I got a lot of homework now and I got to go to Karate, many steps.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,34.0,184,student
+47,47,,34.0,Ariel,Then I multiply the number of rods of that ladder by two then I subtract two.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,34.0,185,student
+48,48,,34.0,Ariel,That’s it.,,1 - None,ba,Appreciation,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,34.0,186,student
+49,49,,35.0,Ariel,Here it is... subtract by two.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,35.0,187,student
+50,50,,35.0,Ariel,Eight.,,5 - Providing Evidence / Explaining Reasoning,aa,Agree/Accept,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,35.0,188,student
+51,51,,35.0,Ariel,Half of eight.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,35.0,189,student
+52,52,,35.0,Ariel,Wait a minute.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,35.0,190,student
+53,53,,35.0,Ariel,I did this for the last one.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,35.0,191,student
+54,54,,37.0,Ariel,Six.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,37.0,192,student
+55,55,,38.0,Ariel,Half of six equals three.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,38.0,193,student
+56,56,,39.0,Ariel,"One, two, three, four, five, six, seven, eight, nine, ten, eleven.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,39.0,194,student
+57,57,,40.0,Ariel,That equals eleven rods.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,40.0,195,student
+58,58,,41.0,Ariel,Times two is twenty-two.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,41.0,196,student
+59,59,,42.0,T,That’s for how many rods?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,42.0,197,teacher
+60,60,,43.0,Ariel,Huh?,,1 - None,%,Uninterpretable,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,43.0,198,student
+61,61,,44.0,T,"Go ahead, go ahead.",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,44.0,199,teacher
+62,62,,44.0,T,Keep going.,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,44.0,200,teacher
+63,63,,45.0,Ariel,Minus two is twenty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,45.0,201,student
+64,64,,46.0,T,That is for how many steps?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,46.0,202,teacher
+65,65,,47.0,Ariel,Six.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,47.0,203,student
+66,66,,48.0,T,Is that right what we have done?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,48.0,204,teacher
+67,67,,49.0,Ariel,I hope I am right.,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,49.0,205,student
+68,68,,49.0,Ariel,This is how many steps?,,3 - Asking for More Information,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,49.0,206,student
+69,69,,49.0,Ariel,"One, two, three, four, five.",,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,49.0,207,student
+70,70,,50.0,Ariel,Lets go.,,1 - None,aa,Agree/Accept,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,50.0,208,student
+71,71,,50.0,Ariel,Who wants to be a millionaire?,,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,50.0,209,student
+72,72,,51.0,T,Is that six steps?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,51.0,210,teacher
+73,73,,52.0,Ariel,"One, two, …",,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,52.0,211,student
+74,74,,53.0,Ariel,"One, two, three, four, five, six.",,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,53.0,212,student
+75,75,,53.0,Ariel,"Yeah, six steps.",,4 - Making a Claim,aa,Agree/Accept,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,53.0,213,student
+76,76,,54.0,Ariel,"One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty",,1 - None,sd,Statement-non-opinion,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,54.0,214,student
+77,77,,55.0,Ariel,"Ooh, in your face.",,1 - None,ba,Appreciation,Ladder problem 3_Grade 7.xlsx_with_dialog_acts,55.0,215,student
+0,0,,1.0,T,So how about eighty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,1.0,445,teacher
+1,1,,1.0,T,How would you go for eighty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,1.0,446,teacher
+2,2,,2.0,Ariel,"Oh, God!",,1 - None,ba,Appreciation,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,2.0,447,student
+3,3,,3.0,Ariel,For eighty?,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,3.0,448,student
+4,4,,3.0,Ariel,I would go back to my calculations.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,3.0,449,student
+5,5,,3.0,Ariel,"For eighty steps, this is what I would do.",,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,3.0,450,student
+6,6,,4.0,T,"No, For eight zero.",1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,4.0,451,teacher
+7,7,,4.0,T,"Did you understand what I am asking, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,4.0,452,teacher
+8,8,,4.0,T,Eight zero.,1 - None,,aa,Agree/Accept,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,4.0,453,teacher
+9,9,,5.0,Ariel,"Yeah, yeah.",,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,5.0,454,student
+10,10,,6.0,T,Last time you understood four hundred.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,6.0,455,teacher
+11,11,,7.0,Ariel,I know what you are saying.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,7.0,456,student
+12,12,,8.0,Ariel,Four.,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,8.0,457,student
+13,13,,8.0,Ariel,Didn’t I do this on the other paper?,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,8.0,458,student
+14,14,,9.0,T,You did for eight.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,9.0,459,teacher
+15,15,,10.0,Ariel,"I know, I know, that’s what I am saying.",,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,10.0,460,student
+16,16,,11.0,Ariel,"OK, it is twenty-six.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,11.0,461,student
+17,17,,11.0,Ariel,"Twenty-six times ten, I didn’t even get one, man.",,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,11.0,462,student
+18,18,,11.0,Ariel,I didn’t get even a single juice.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,11.0,463,student
+19,19,,12.0,T,What do you mean?,8 - Press for Accuracy,,ba,Appreciation,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,12.0,464,teacher
+20,20,,12.0,T,"You are saying for eighty, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,12.0,465,teacher
+21,21,,13.0,Ariel,Yes!,,1 - None,%,Uninterpretable,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,13.0,466,student
+22,22,,14.0,T,How many you have?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,14.0,467,teacher
+23,23,,15.0,Ariel,Two hundred sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,15.0,468,student
+24,24,,16.0,T,How did you do it?,8 - Press for Accuracy,,qy,Yes-No-Question,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,16.0,469,teacher
+25,25,,17.0,Ariel,"What I did was, eight rods …",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,17.0,470,student
+26,26,,18.0,T,Which one of the two rules did you use?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,18.0,471,teacher
+27,27,,19.0,Ariel,The Evens.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,19.0,472,student
+28,28,,20.0,T,What is it?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,20.0,473,teacher
+29,29,,20.0,T,I want to understand.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,20.0,474,teacher
+30,30,,20.0,T,"Take that number, divide it by half, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,20.0,475,teacher
+31,31,,21.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,21.0,476,student
+32,32,,22.0,T,"Then, make the ladder with that many steps, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,22.0,477,teacher
+33,33,,23.0,Ariel,"Unh, unh.",,,%,Uninterpretable,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,23.0,478,student
+34,34,,24.0,T,Then multiply the number of rods of that ladder by two and then subtract two.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,24.0,479,teacher
+35,35,,24.0,T,Did you do that for eighty?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,24.0,480,teacher
+36,36,,25.0,Ariel,For who?,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,25.0,481,student
+37,37,,26.0,T,"For eight zero, eighty?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,26.0,482,teacher
+38,38,,26.0,T,Did you do that?,2 - Keeping Everyone Together,,qy,Yes-No-Question,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,26.0,483,teacher
+39,39,,26.0,T,"Eighty is an odd even number, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,26.0,484,teacher
+40,40,,27.0,Ariel,"No, because … yeah, yeah, and then I subtract two from this.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,27.0,485,student
+41,41,,27.0,Ariel,Two fifty-eight.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,27.0,486,student
+42,42,,28.0,T,What I am trying to say …,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,28.0,487,teacher
+43,43,,29.0,Ariel,"Look, this is what I did.",,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,29.0,488,student
+44,44,,29.0,Ariel,OK.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,29.0,489,student
+45,45,,30.0,T,How can you do this because you are telling me that this works for all even numbers.,1 - None,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,30.0,490,teacher
+46,46,,30.0,T,Is eighty an even number or not?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,30.0,491,teacher
+47,47,,31.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,31.0,492,student
+48,48,,32.0,T,So how can you do that?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,32.0,493,teacher
+49,49,,33.0,Ariel,"Because for eight rods, it is twenty-six.",7 - Context,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,33.0,494,student
+50,50,,34.0,T,Twenty-six.,4 - Restating,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,34.0,495,teacher
+51,51,,35.0,Ariel,So that represents eight and eight times ten is eighty so it is twenty-six times ten equals two hundred and sixty and minus two equals two hundred and fifty-eight.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,35.0,496,student
+52,52,,36.0,T,How about for a hundred and twenty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,36.0,497,teacher
+53,53,,37.0,Ariel,Eh?,,1 - None,ba,Appreciation,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,37.0,498,student
+54,54,,38.0,T,A ladder with hundred and twenty rods?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,38.0,499,teacher
+55,55,,39.0,Ariel,A hundred and twenty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,39.0,500,student
+56,56,,40.0,James,I just hate that.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,40.0,501,student
+57,57,,41.0,T,"Yeah, a ladder with hundred and twenty.",1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,41.0,502,teacher
+58,58,,41.0,T,One two zero.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,41.0,503,teacher
+59,59,,42.0,Ariel,Six that is sixty times two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,42.0,504,student
+60,60,,42.0,Ariel,I got you!,,1 - None,ba,Appreciation,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,42.0,505,student
+61,61,,42.0,Ariel,"So twenty, that will be six times ten will be my sixty and twenty times two is two hundred minus the two is one hundred and ninety eight and that will be my sixty times two.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,42.0,506,student
+62,62,,43.0,T,What is half of one twenty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,43.0,507,teacher
+63,63,,43.0,T,I don’t see half of one twenty.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,43.0,508,teacher
+64,64,,44.0,Ariel,Huh.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,44.0,509,student
+65,65,,45.0,T,In your rule you said you will do half of that one twenty.,1 - None,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,45.0,510,teacher
+66,66,,46.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 4_Grade 7.xlsx_with_dialog_acts,46.0,511,student
+67,67,,47.0,T,Half is sixty.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,47.0,512,teacher
+68,68,,48.0,Ariel,I know.,,1 - None,aa,Agree/Accept,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,48.0,513,student
+69,69,,49.0,T,So how are you going to do it?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,49.0,514,teacher
+70,70,,50.0,Ariel,I did.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,50.0,515,student
+71,71,,50.0,Ariel,This six times ten is sixty.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,50.0,516,student
+72,72,,50.0,Ariel,My sixty is two hundred and two hundred minus two equals one hundred and ninety-eight so this is my sixty.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,50.0,517,student
+73,73,,50.0,Ariel,And then my sixty times two is …,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,50.0,518,student
+74,74,,51.0,T,"So sixty divided by two, that gives you what?",8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,51.0,519,teacher
+75,75,,51.0,T,Thirty.,1 - None,,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,51.0,520,teacher
+76,76,,52.0,Ariel,Three hundred and nine-six minus … Wait a minute!,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,52.0,521,student
+77,77,,52.0,Ariel,"Did I do my math, right?",,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,52.0,522,student
+78,78,,53.0,James,What?,,1 - None,ba,Appreciation,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,53.0,523,student
+79,79,,54.0,Ariel,We did not need to hear that.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,54.0,524,student
+80,80,,55.0,Ariel,Let me just finish this problem real quick.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,55.0,525,student
+81,81,,55.0,Ariel,OK. nine times two is eighteen plus one is nineteen.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,55.0,526,student
+82,82,,55.0,Ariel,"OK, OK. Then subtract two is three hundred ninety- four.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,55.0,527,student
+83,83,,55.0,Ariel,I am nice.,,1 - None,sd,Statement-non-opinion,Ladder problem 4_Grade 7.xlsx_with_dialog_acts,55.0,528,student
+0,0,,1.0,T,"Ariel, the rule that you came up with was that you take that number, divide by two, is that right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,1.0,216,teacher
+1,1,,2.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,2.0,217,student
+2,2,,3.0,T,"So if we divide one hundred and twenty by two, what do you get?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,3.0,218,teacher
+3,3,,4.0,Ariel,Sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,4.0,219,student
+4,4,,5.0,T,And then you build that ladder with that many steps?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,5.0,220,teacher
+5,5,,6.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,6.0,221,student
+6,6,,7.0,T,"And then you said multiply by two, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,7.0,222,teacher
+7,7,,8.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,8.0,223,student
+8,8,,9.0,T,"And then you do what, subtract two.",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,9.0,224,teacher
+9,9,,9.0,T,I didn’t see you do that.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,9.0,225,teacher
+10,10,,9.0,T,I don’t see that sixty there.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,9.0,226,teacher
+11,11,,9.0,T,Where is that sixty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,9.0,227,teacher
+12,12,,10.0,Ariel,One hundred and ninety-eight.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,10.0,228,student
+13,13,,11.0,T,Where is that one twenty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,11.0,229,teacher
+14,14,,11.0,T,I don’t see that one twenty that I told you about?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,11.0,230,teacher
+15,15,,12.0,Ariel,Because this is what I did.,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,12.0,231,student
+16,16,,12.0,Ariel,"Twenty is the six, six times ten is sixty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,12.0,232,student
+17,17,,12.0,Ariel,That would be the two hundred.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,12.0,233,student
+18,18,,13.0,T,Six times what?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,13.0,234,teacher
+19,19,,14.0,Ariel,Six times ten is sixty.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,14.0,235,student
+20,20,,15.0,T,"Hmm, hmm.",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,15.0,236,teacher
+21,21,,16.0,Ariel,"Two hundred is right here, then I subtracted two and make it one ninety eight and so sixty is one ninety eight",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,16.0,237,student
+22,22,,17.0,T,What do you mean sixty is one ninety-eight?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,17.0,238,teacher
+23,23,,17.0,T,What are you trying to say?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,17.0,239,teacher
+24,24,,18.0,Ariel,Rods.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,18.0,240,student
+25,25,,19.0,T,You are saying that sixty is one twenty eight.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,19.0,241,teacher
+26,26,,20.0,Ariel,"No, one ninety eight.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,20.0,242,student
+27,27,,21.0,T,And how did you get that one ninety eight for sixty?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,21.0,243,teacher
+28,28,,22.0,Ariel,"I did twenty, which would be... six steps is twenty rods.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,22.0,244,student
+29,29,,22.0,Ariel,Six times ten is sixty so twenty rods times ten is two hundred and through my rule you subtract it by two to get one ninety eight and then …,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,22.0,245,student
+30,30,,23.0,T,"Wait, wait, wait!",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,23.0,246,teacher
+31,31,,23.0,T,Let’s focus on this.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,23.0,247,teacher
+32,32,,23.0,T,"Up to here, you are getting the number for sixty, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,23.0,248,teacher
+33,33,,24.0,Ariel,This is sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,24.0,249,student
+34,34,,25.0,T,So how did  … Did you use the same rule again?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,25.0,250,teacher
+35,35,,25.0,T,"Six is an even number, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,25.0,251,teacher
+36,36,,26.0,Ariel,"Yeah, yeah, yeah.",,1 - None,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,26.0,252,student
+37,37,,27.0,T,So did you do the same rule of dividing by two?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,27.0,253,teacher
+38,38,,28.0,Ariel,"Yeah, I divide one twenty by two and got sixty.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,28.0,254,student
+39,39,,29.0,T,"No, but how, I am just looking at your rule, you understand what I am saying?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,29.0,255,teacher
+40,40,,29.0,T,I am looking at your rule here and I am just trying to apply it.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,29.0,256,teacher
+41,41,,31.0,T,"OK, you go ahead.",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,31.0,257,teacher
+42,42,,32.0,James,You are wrong right there because …,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,32.0,258,student
+43,43,,33.0,T,"So let’s do a little bit more, please because… let backtrack a bit, do you mind?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,33.0,259,teacher
+44,44,,33.0,T,Quickly...OK?,1 - None,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,33.0,260,teacher
+45,45,,34.0,Ariel,OK.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,34.0,261,student
+46,46,,35.0,T,We’ll move on and then I’ll ask you a bit more.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,262,teacher
+47,47,,35.0,T,Is this what you did for one twenty?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,263,teacher
+48,48,,35.0,T,"So I have the rule here, you see what I am saying my point ?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,264,teacher
+49,49,,35.0,T,"I am reading this and I know that one-twenty, so what is the rule?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,265,teacher
+50,50,,35.0,T,Can we get enough paper?,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,266,teacher
+51,51,,35.0,T,Maybe you can do on this paper separate.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,267,teacher
+52,52,,35.0,T,"So we can look at the rule that you have here, I am really looking for a rule that can help me figure out.",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,35.0,268,teacher
+53,53,,36.0,Ariel,Should I write this whole thing here?,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,36.0,269,student
+54,54,,37.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,37.0,270,teacher
+55,55,,38.0,Ariel,Done.,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,38.0,271,student
+56,56,,39.0,T,Why don’t you [inaudible],1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,39.0,272,teacher
+58,58,,39.0,T,"I’m going to put the rule, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,39.0,274,teacher
+59,59,,39.0,T,So for every number take half of that number and make a ladder with that many steps,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,39.0,275,teacher
+60,60,,40.0,T,"Right, Ariel?",2 - Keeping Everyone Together,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,40.0,276,teacher
+61,61,,41.0,James,My rule is right.,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,41.0,277,student
+62,62,,42.0,T,Then I multiply that... let’s see.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,278,teacher
+63,63,,42.0,T,Is this here consistent with this?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,279,teacher
+64,64,,42.0,T,Does this go with this?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,280,teacher
+65,65,,42.0,T,In which way?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,281,teacher
+66,66,,42.0,T,Can you write one twenty there?,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,282,teacher
+67,67,,42.0,T,So we know for how many rods for the ladder for one twenty eight steps.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,42.0,283,teacher
+68,68,,44.0,Ariel,"Here we go, half as sixty, yah, yah.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,44.0,284,student
+69,69,,44.0,Ariel,"Six times ten is sixty, ahh, ahh.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,44.0,285,student
+70,70,,44.0,Ariel,"For six steps equals too many rods and then six times ten is sixty, so two hundred and",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,44.0,286,student
+71,71,,45.0,T,Where is the ladder with sixty steps?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,45.0,287,teacher
+72,72,,46.0,Ariel,I didn’t do that.,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,46.0,288,student
+73,73,,46.0,Ariel,It is too much.,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,46.0,289,student
+74,74,,46.0,Ariel,I shortened it by dividing sixty by ten it gives me six.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,46.0,290,student
+75,75,,46.0,Ariel,"Since, I had already done six, six times ten is sixty, so I just did the number rods for sixty times ten.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,46.0,291,student
+76,76,,46.0,Ariel,So that I didn’t have to make a big ol’ ladder.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,46.0,292,student
+77,77,,47.0,T,So basically what is this all about?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,47.0,293,teacher
+78,78,,47.0,T,Did you subtract by two?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,47.0,294,teacher
+79,79,,48.0,Ariel,What?,,1 - None,ba,Appreciation,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,48.0,295,student
+80,80,,49.0,T,Did you subtract by two?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,49.0,296,teacher
+81,81,,49.0,T,"Here, did you subtract by two?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,49.0,297,teacher
+82,82,,50.0,Ariel,It is right here.,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,50.0,298,student
+83,83,,51.0,T,OK.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,51.0,299,teacher
+84,84,,51.0,T,This is … One ninety eight is what again?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,51.0,300,teacher
+85,85,,52.0,Ariel,The sixty.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,52.0,301,student
+86,86,,53.0,T,I see.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,53.0,302,teacher
+87,87,,53.0,T,I see.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 5_Grade 7.xlsx_with_dialog_acts,53.0,303,teacher
+88,88,,54.0,Ariel,What’s this?,,1 - None,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,54.0,304,student
+89,89,,54.0,Ariel,"Ohh, I put nine!",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,54.0,305,student
+90,90,,54.0,Ariel,"That’s two, that’s supposed to be a two, my bad.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,54.0,306,student
+91,91,,54.0,Ariel,Two.,,4 - Making a Claim,%,Uninterpretable,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,54.0,307,student
+92,92,,55.0,T,"OK, so now I have a question.",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,55.0,308,teacher
+93,93,,55.0,T,I see what you are doing.,1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,55.0,309,teacher
+57,57,,,T,"Let’s go here, Ariel.",1 - None,,sd,Statement-non-opinion,Ladder problem 5_Grade 7.xlsx_with_dialog_acts,,273,teacher
+0,0,,1.0,T,So now I have a question.,1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,90,teacher
+1,1,,1.0,T,I see what you are doing.,1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,91,teacher
+2,2,,1.0,T,"So for what number … for odd number … this is what you do, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,92,teacher
+3,3,,1.0,T,"Let’s say, for one twenty-five.",1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,93,teacher
+4,4,,1.0,T,"Is that odd, one twenty-five?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,94,teacher
+5,5,,1.0,T,How will you do for one twenty-five?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,1.0,95,teacher
+6,6,,2.0,Ariel,The Odd rule?,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,2.0,96,student
+7,7,,3.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 6_Grade 7.xlsx_with_dialog_acts,3.0,97,teacher
+8,8,,4.0,Ariel,"I will go to one twenty-four which is … I got a one twenty-fourrrrr… wait, wait, what am I doing it is seventy-two, I believe, no, no, don’t think that… sixty two … hah, hah, hah.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,4.0,98,student
+9,9,,4.0,Ariel,I’m smart.,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,4.0,99,student
+10,10,,5.0,Ariel,"Yeah, sixty-two.",,4 - Making a Claim,aa,Agree/Accept,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,5.0,100,student
+11,11,,6.0,T,What is it?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,6.0,101,teacher
+12,12,,6.0,T,How many you got?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,6.0,102,teacher
+13,13,,7.0,Ariel,"It is sixty-two, half of one twenty-four.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,7.0,103,student
+14,14,,8.0,T,"Yeah, but then how many rods that ladder is going to have?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,8.0,104,teacher
+15,15,,8.0,T,For one twenty- five,1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,8.0,105,teacher
+16,16,,9.0,Ariel,I have to figure that out?,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,9.0,106,student
+17,17,,10.0,T,"Yeah, can you figure that out?",8 - Press for Accuracy,,ba,Appreciation,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,10.0,107,teacher
+18,18,,11.0,Ariel,I doubt it.,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,11.0,108,student
+19,19,,12.0,Ariel,"Let me see, if this is …",,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,12.0,109,student
+20,20,,13.0,T,"You have got your rule, right?",2 - Keeping Everyone Together,,aa,Agree/Accept,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,13.0,110,teacher
+21,21,,13.0,T,The rule is here.,1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,13.0,111,teacher
+22,22,,14.0,Ariel,"My rule, uh my perfet rule, I have to set it up for this huge thing.",,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,14.0,112,student
+23,23,,15.0,T,Are you saying you are going to build that entire one twenty-four?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,15.0,113,teacher
+24,24,,15.0,T,One twenty-four steps?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,15.0,114,teacher
+25,25,,16.0,Ariel,"No, this is two right here.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,16.0,115,student
+26,26,,17.0,Ariel,"One, two, three, four, five, six, seven, eight.",,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,17.0,116,student
+27,27,,18.0,Ariel,"For sixty, it is one hundred and ninety-eight, add two it is two hundred.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,18.0,117,student
+28,28,,18.0,Ariel,Wait a minute.,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,18.0,118,student
+29,29,,18.0,Ariel,"No, we add six, oh.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,18.0,119,student
+30,30,,19.0,Ariel,"One, two, three, four, five, six, seven, eight.",,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,19.0,120,student
+31,31,,20.0,Ariel,Wait a minute.,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,20.0,121,student
+32,32,,20.0,Ariel,One hundred ninety-eight.,,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,20.0,122,student
+33,33,,21.0,Ariel,"One ninety-nine, two hundred, two-o-two, two-o-three, two-o-four and two-o-six.",,1 - None,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,21.0,123,student
+34,34,,22.0,Ariel,Two hundred and six rods.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,22.0,124,student
+35,35,,23.0,T,"Now you were thinking in your head, so I don’t know, so it is time for you to explain back to me.",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,23.0,125,teacher
+36,36,,23.0,T,"So I follow you from the beginning, from the beginning",1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,23.0,126,teacher
+39,39,,24.0,Ariel,"One twenty five rounded to the nearest even number, it could be one twenty four or one twenty six, I did one twenty-four.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,24.0,129,student
+40,40,,25.0,T,OK.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 6_Grade 7.xlsx_with_dialog_acts,25.0,130,teacher
+41,41,,26.0,Ariel,Then one twenty four divided by two is sixty two.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,26.0,131,student
+42,42,,27.0,T,"How did you find out, OK?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,27.0,132,teacher
+43,43,,28.0,Ariel,Sixty is...,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,28.0,133,student
+44,44,,28.0,Ariel,"I went back to my recent observations, sixty is one hundred ninety- eight and then I made these two steps which gave me eight more rods which makes it one hundred … two hundred and six rods.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,28.0,134,student
+45,45,,28.0,Ariel,Now we shall multiply,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,28.0,135,student
+46,46,,30.0,Ariel,Four-ten.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,30.0,136,student
+47,47,,31.0,T,So.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 6_Grade 7.xlsx_with_dialog_acts,31.0,137,teacher
+37,37,,,T,One twenty five steps.,1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,,127,teacher
+38,38,,,T,"You do a lot in your head, I just cannot follow you.",1 - None,,sd,Statement-non-opinion,Ladder problem 6_Grade 7.xlsx_with_dialog_acts,,128,teacher
+0,0,,1.0,T,So you’re saying... Let’s go one last time.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,1.0,0,teacher
+1,1,,1.0,T,"So for one twenty-five, what did you do?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,1.0,1,teacher
+2,2,,1.0,T,You went back to what?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,1.0,2,teacher
+3,3,,2.0,Ariel,One twenty-four.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,2.0,3,student
+4,4,,3.0,T,"Then, what did you do next?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,3.0,4,teacher
+5,5,,4.0,Ariel,I did half of one twenty-four.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,4.0,5,student
+6,6,,5.0,T,And you got what?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,5.0,6,teacher
+7,7,,6.0,Ariel,I got sixty-two.,7 - Context,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,6.0,7,student
+8,8,,7.0,T,"[pointing to the paper] Sixty-two, this is it.",5 - Revoicing,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,7.0,8,teacher
+9,9,,7.0,T,Then what did you do with that sixty-two.,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,7.0,9,teacher
+10,10,,8.0,Ariel,"Two, right?",,4 - Making a Claim,%,Uninterpretable,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,8.0,10,student
+11,11,,9.0,T,Sixty-two.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,9.0,11,teacher
+12,12,,10.0,Ariel,"Yeah, I know, sixty-two.",,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,10.0,12,student
+13,13,,10.0,Ariel,I subtracted two and since I had already done … You subtracted two from what?,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,10.0,13,student
+14,14,,11.0,Ariel,From sixty two.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,11.0,14,student
+15,15,,12.0,T,"Ah, huh.",1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,12.0,15,teacher
+16,16,,13.0,Ariel,"Since I had already done how many rods sixty has, I just went back here, look here, it is one hundred and ninety- eight rods and I made one for two and it gave me eight rods and then I added eight rods to one hundred and ninety eight.",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,13.0,16,student
+17,17,,14.0,T,Is that right?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,14.0,17,teacher
+18,18,,14.0,T,Let’s see... very well.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,14.0,18,teacher
+19,19,,14.0,T,So you are saying you added eight to what?,8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,14.0,19,teacher
+20,20,,15.0,Ariel,Eight rods to my other rods one hundred ninety-eight.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,15.0,20,student
+21,21,,16.0,T,"Let’s think so you are saying going from sixty to sixty two, you added eight rods, right, is that what you are saying?",2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,16.0,21,teacher
+22,22,,17.0,Ariel,"Yeah, What?",,3 - Asking for More Information,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,17.0,22,student
+23,23,,18.0,T,"You said … basically, you are trying to tell me that … you are trying to find for sixty-two.",1 - None,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,18.0,23,teacher
+24,24,,19.0,Ariel,Yes.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,19.0,24,student
+25,25,,20.0,T,"You went down to sixty, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,20.0,25,teacher
+26,26,,21.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,21.0,26,student
+27,27,,22.0,T,"You know how many are in sixty and you are adding two ladders, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,22.0,27,teacher
+28,28,,23.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,23.0,28,student
+29,29,,24.0,T,Is that what you are saying?,2 - Keeping Everyone Together,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,24.0,29,teacher
+30,30,,25.0,Ariel,A ladder with two steps so I counted …,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,25.0,30,student
+31,31,,26.0,T,So is it like you are saying you had eight so how many six has?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,26.0,31,teacher
+32,32,,28.0,T,Let’s do the same idea with eight … six?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,28.0,32,teacher
+33,33,,28.0,T,"So if you moved down to six, how many six has?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,28.0,33,teacher
+34,34,,28.0,T,"A ladder with six, how many rods it has?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,28.0,34,teacher
+35,35,,28.0,T,Can we build it?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,28.0,35,teacher
+36,36,,30.0,T,"We know two has eight, right?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,30.0,36,teacher
+37,37,,31.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,31.0,37,student
+38,38,,32.0,T,"But six, how many six has?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,32.0,38,teacher
+39,39,,33.0,Ariel,Eight times three …,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,33.0,39,student
+40,40,,34.0,T,Let’s actually do it.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,34.0,40,teacher
+41,41,,35.0,T,Can you put for six?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,35.0,41,teacher
+42,42,,36.0,Ariel,Six steps?,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,36.0,42,student
+43,43,,37.0,T,Yeah.,1 - None,,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,37.0,43,teacher
+44,44,,38.0,Ariel,Oh my God!,,1 - None,ba,Appreciation,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,38.0,44,student
+45,45,,39.0,Ariel,Have mercy on me.,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,39.0,45,student
+46,46,,41.0,Ariel,"Oh, messed up.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,41.0,46,student
+47,47,,42.0,Ariel,"Ta, ta, ta.",,1 - None,%,Uninterpretable,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,42.0,47,student
+48,48,,43.0,Ariel,"There you are, happy?",,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,43.0,48,student
+49,49,,44.0,T,So how many steps do we have?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,44.0,49,teacher
+50,50,,45.0,Ariel,Six.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,45.0,50,student
+51,51,,46.0,T,And how many do we have?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,46.0,51,teacher
+52,52,,47.0,Ariel,"One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.",,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,47.0,52,student
+53,53,,48.0,T,Twenty.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,48.0,53,teacher
+54,54,,49.0,T,Can you write it down somewhere?,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,49.0,54,teacher
+55,55,,51.0,T,"So, you are saying for eight you got how many, a ladder of two has eight, is that what you are saying?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,51.0,55,teacher
+56,56,,51.0,T,"A ladder of two, how many do they have?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,51.0,56,teacher
+57,57,,52.0,Ariel,Yeah.,,1 - None,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,52.0,57,student
+58,58,,53.0,T,"So you write eight, you get what?",8 - Press for Accuracy,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,53.0,58,teacher
+59,59,,54.0,Ariel,Twenty-eight.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,54.0,59,student
+60,60,,55.0,T,"So, let’s see whether eight has twenty-eight.",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,55.0,60,teacher
+61,61,,56.0,Ariel,"Wait a minute, I have twenty-six.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,56.0,61,student
+62,62,,57.0,T,So then what we are going to do?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,57.0,62,teacher
+63,63,,58.0,Ariel,"Go to my rule, minus two.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,58.0,63,student
+64,64,,59.0,Ariel,Twenty-six.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,59.0,64,student
+65,65,,60.0,T,I am finding hard to follow.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,60.0,65,teacher
+66,66,,61.0,Ariel,I need to go home.,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,61.0,66,student
+67,67,,62.0,Ariel,"Here we go, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, twenty-one, twenty-two, twenty-three, twenty-four, twenty-five.",,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,62.0,67,student
+68,68,,63.0,Ariel,"Ooh, Ooh, I am right.",,1 - None,aa,Agree/Accept,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,63.0,68,student
+69,69,,63.0,Ariel,"I am right, twenty-six.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,63.0,69,student
+70,70,,64.0,Ariel,"Tut, tut, toon.",,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,64.0,70,student
+71,71,,64.0,Ariel,I got to be out of here.,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,64.0,71,student
+72,72,,65.0,T,"Alright so, let’s go to one twenty-five, how did you get then?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,65.0,72,teacher
+73,73,,66.0,T,You said sixty and then you added eight?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,66.0,73,teacher
+74,74,,66.0,T,So is this right or wrong?,2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,66.0,74,teacher
+75,75,,67.0,Ariel,It is right.,,4 - Making a Claim,aa,Agree/Accept,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,67.0,75,student
+76,76,,68.0,Ariel,I did the same thing for this how I did this and it is right.,,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,68.0,76,student
+77,77,,68.0,Ariel,I just did it right now.,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,68.0,77,student
+78,78,,68.0,Ariel,I’m right.,,4 - Making a Claim,b,Acknowledge (Backchannel),Ladder problem 7_Grade 7.xlsx_with_dialog_acts,68.0,78,student
+79,79,,69.0,T,"You always subtract that two, where does it come from?",8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,69.0,79,teacher
+80,80,,69.0,T,What does it have to do with the ladder?,8 - Press for Accuracy,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,69.0,80,teacher
+81,81,,70.0,Ariel,With the ladder?,,1 - None,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,70.0,81,student
+82,82,,71.0,T,Hmph.,1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,71.0,82,teacher
+83,83,,72.0,Ariel,"Because James, I don’t know how he did it, but I do it because James was right, so I told you.",,2 - Relating to Another Student,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,72.0,83,student
+84,84,,73.0,T,"No, you subtract two, in your rule you always talk about subtracting two.",1 - None,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,73.0,84,teacher
+85,85,,74.0,Ariel,Because before when I would just multiply by two and then I noticed that I was wrong.,,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,74.0,85,student
+86,86,,74.0,Ariel,"I was off by two, so I just starting subtracting two or",,5 - Providing Evidence / Explaining Reasoning,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,74.0,86,student
+87,87,,75.0,T,"But you would do that for any number, whether it is odd or even, you do all that?",2 - Keeping Everyone Together,,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,75.0,87,teacher
+88,88,,76.0,Ariel,"No, just … Wait, yeah, yeah, yeah, odd or even and then for een, anh, anh, een, aa.",,4 - Making a Claim,sd,Statement-non-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,76.0,88,student
+89,89,,77.0,T,"Ok, so thank you, this was very nice.",1 - None,,sv,Statement-opinion,Ladder problem 7_Grade 7.xlsx_with_dialog_acts,77.0,89,teacher
