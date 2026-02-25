@@ -4,8 +4,15 @@ import pandas as pd
 import streamlit as st
 
 DATA_DIR = "DATA"
-REQUIRED_COLS = ["TimeStamp", "Turn", "Speaker", "Sentence", "Teacher_Tag", "Student_Tag", "DialogAct"]
+REQUIRED_COLS = [
+    "TimeStamp", "Turn", "Speaker", "Sentence",
+    "Teacher_Tag", "Student_Tag", "DialogAct"
+]
 
+
+# -----------------------
+# Utility
+# -----------------------
 
 def get_role(speaker: str) -> str:
     s = (speaker or "").strip().lower()
@@ -42,33 +49,65 @@ def load_and_merge_xlsx(data_dir: str) -> pd.DataFrame:
     return data
 
 
+# -----------------------
+# Custom Colorful Bar Chart
+# -----------------------
+
 def colorful_bar_chart(df, category_col, value_col, title):
+
     spec = {
         "title": title,
         "data": {"values": df.to_dict(orient="records")},
-        "mark": {"type": "bar", "cornerRadiusTopLeft": 4, "cornerRadiusTopRight": 4},
+        "mark": {
+            "type": "bar",
+            "cornerRadiusTopLeft": 6,
+            "cornerRadiusTopRight": 6
+        },
         "encoding": {
-            "x": {"field": category_col, "type": "nominal", "axis": {"labelAngle": -45}},
-            "y": {"field": value_col, "type": "quantitative"},
+            "x": {
+                "field": category_col,
+                "type": "nominal",
+                "axis": {"labelAngle": -45}
+            },
+            "y": {
+                "field": value_col,
+                "type": "quantitative"
+            },
             "color": {
                 "field": category_col,
                 "type": "nominal",
-                "scale": {"scheme": "category20"}  
+                "scale": {
+                    "range": [
+                        "#4E79A7", "#F28E2B", "#E15759", "#76B7B2",
+                        "#59A14F", "#EDC948", "#B07AA1", "#FF9DA7",
+                        "#9C755F", "#BAB0AC"
+                    ]
+                }
             },
             "tooltip": [
-                {"field": category_col, "type": "nominal"},
-                {"field": value_col, "type": "quantitative"},
+                {"field": category_col},
+                {"field": value_col}
             ],
         },
+        "config": {
+            "view": {"stroke": "transparent"},
+            "axis": {"labelFontSize": 12, "titleFontSize": 14}
+        }
     }
 
     st.vega_lite_chart(spec, use_container_width=True)
 
 
+# -----------------------
+# Heatmap
+# -----------------------
+
 def vega_heatmap(df_props: pd.DataFrame, title: str):
     long = (
         df_props.reset_index()
-        .melt(id_vars="Teacher_Tag", var_name="DialogAct", value_name="Proportion")
+        .melt(id_vars="Teacher_Tag",
+              var_name="DialogAct",
+              value_name="Proportion")
         .dropna()
     )
 
@@ -77,12 +116,21 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
         "data": {"values": long.to_dict(orient="records")},
         "mark": "rect",
         "encoding": {
-            "x": {"field": "DialogAct", "type": "nominal", "axis": {"labelAngle": -45}},
-            "y": {"field": "Teacher_Tag", "type": "nominal"},
+            "x": {
+                "field": "DialogAct",
+                "type": "nominal",
+                "axis": {"labelAngle": -45}
+            },
+            "y": {
+                "field": "Teacher_Tag",
+                "type": "nominal"
+            },
             "color": {
                 "field": "Proportion",
                 "type": "quantitative",
-                "scale": {"scheme": "tealblues"}  # heatmap color
+                "scale": {
+                    "range": ["#f7fbff", "#08306b"]  # 더 대비 강한 컬러
+                }
             },
             "tooltip": [
                 {"field": "Teacher_Tag"},
@@ -90,6 +138,7 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
                 {"field": "Proportion", "format": ".0%"},
             ],
         },
+        "config": {"view": {"stroke": "transparent"}}
     }
 
     st.vega_lite_chart(spec, use_container_width=True)
@@ -99,16 +148,22 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
 # UI
 # =========================
 
-st.set_page_config(page_title="Classroom Discourse Dashboard", layout="wide")
+st.set_page_config(
+    page_title="Classroom Discourse Dashboard",
+    layout="wide"
+)
+
 st.title("📊 Classroom Discourse Dashboard")
 
 data = load_and_merge_xlsx(DATA_DIR)
 
-# Lesson filter만 유지
 st.sidebar.header("Filters")
+
 lessons = sorted(data["lesson_id"].unique())
 selected_lessons = st.sidebar.multiselect(
-    "Select lessons", lessons, default=lessons
+    "Select lessons",
+    lessons,
+    default=lessons
 )
 
 filtered = data[data["lesson_id"].isin(selected_lessons)].copy()
@@ -129,8 +184,12 @@ with col1:
         .reset_index(name="turn_count")
     )
 
-    colorful_bar_chart(rq1_turns, "role", "turn_count",
-                        "Teacher vs Student Turn Frequency")
+    colorful_bar_chart(
+        rq1_turns,
+        "role",
+        "turn_count",
+        "Teacher vs Student Turn Frequency"
+    )
 
 with col2:
     da_counts = (
@@ -143,8 +202,12 @@ with col2:
 
     da_counts.columns = ["DialogAct", "count"]
 
-    colorful_bar_chart(da_counts, "DialogAct", "count",
-                        "DialogAct Distribution (Top 10)")
+    colorful_bar_chart(
+        da_counts,
+        "DialogAct",
+        "count",
+        "DialogAct Distribution (Top 10)"
+    )
 
 
 # =========================
@@ -165,8 +228,12 @@ st_counts = (
 
 st_counts.columns = ["Student_Tag", "count"]
 
-colorful_bar_chart(st_counts, "Student_Tag", "count",
-                    "Student_Tag Distribution (Top 10)")
+colorful_bar_chart(
+    st_counts,
+    "Student_Tag",
+    "count",
+    "Student_Tag Distribution (Top 10)"
+)
 
 
 # =========================
@@ -185,4 +252,7 @@ ct_counts = pd.crosstab(
 ct_props = ct_counts.div(ct_counts.sum(axis=1), axis=0).fillna(0)
 ct_props.index.name = "Teacher_Tag"
 
-vega_heatmap(ct_props, "Teacher_Tag × DialogAct (Proportion Heatmap)")
+vega_heatmap(
+    ct_props,
+    "Teacher_Tag × DialogAct (Proportion Heatmap)"
+)
