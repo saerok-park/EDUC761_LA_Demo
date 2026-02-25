@@ -50,7 +50,7 @@ def load_and_merge_xlsx(data_dir: str) -> pd.DataFrame:
 
 
 # -----------------------
-# Custom Colorful Bar Chart
+# Colorful Bar Chart
 # -----------------------
 
 def colorful_bar_chart(df, category_col, value_col, title):
@@ -69,10 +69,7 @@ def colorful_bar_chart(df, category_col, value_col, title):
                 "type": "nominal",
                 "axis": {"labelAngle": -45}
             },
-            "y": {
-                "field": value_col,
-                "type": "quantitative"
-            },
+            "y": {"field": value_col, "type": "quantitative"},
             "color": {
                 "field": category_col,
                 "type": "nominal",
@@ -89,10 +86,7 @@ def colorful_bar_chart(df, category_col, value_col, title):
                 {"field": value_col}
             ],
         },
-        "config": {
-            "view": {"stroke": "transparent"},
-            "axis": {"labelFontSize": 12, "titleFontSize": 14}
-        }
+        "config": {"view": {"stroke": "transparent"}}
     }
 
     st.vega_lite_chart(spec, use_container_width=True)
@@ -103,6 +97,7 @@ def colorful_bar_chart(df, category_col, value_col, title):
 # -----------------------
 
 def vega_heatmap(df_props: pd.DataFrame, title: str):
+
     long = (
         df_props.reset_index()
         .melt(id_vars="Teacher_Tag",
@@ -129,13 +124,13 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
                 "field": "Proportion",
                 "type": "quantitative",
                 "scale": {
-                    "range": ["#f7fbff", "#08306b"]  # 더 대비 강한 컬러
+                    "range": ["#f7fbff", "#08306b"]
                 }
             },
             "tooltip": [
                 {"field": "Teacher_Tag"},
                 {"field": "DialogAct"},
-                {"field": "Proportion", "format": ".0%"},
+                {"field": "Proportion", "format": ".0%"}
             ],
         },
         "config": {"view": {"stroke": "transparent"}}
@@ -157,6 +152,7 @@ st.title("📊 Classroom Discourse Dashboard")
 
 data = load_and_merge_xlsx(DATA_DIR)
 
+# Sidebar
 st.sidebar.header("Filters")
 
 lessons = sorted(data["lesson_id"].unique())
@@ -169,11 +165,29 @@ selected_lessons = st.sidebar.multiselect(
 filtered = data[data["lesson_id"].isin(selected_lessons)].copy()
 
 
+# -----------------------
+# Data Preview
+# -----------------------
+
+with st.expander("📄 View Raw Data (First 50 Rows)"):
+    st.dataframe(
+        filtered[
+            [
+                "lesson_id", "TimeStamp", "Turn",
+                "Speaker", "role",
+                "Sentence", "Teacher_Tag",
+                "Student_Tag", "DialogAct"
+            ]
+        ].head(50),
+        use_container_width=True
+    )
+
+
 # =========================
 # RQ1
 # =========================
 
-st.header("RQ1. How is classroom discourse distributed and dialog act types?")
+st.header("RQ1. Classroom discourse distribution & dialog acts")
 
 col1, col2 = st.columns(2)
 
@@ -206,7 +220,7 @@ with col2:
         da_counts,
         "DialogAct",
         "count",
-        "DialogAct Distribution (Top 10)"
+        "DialogAct Distribution"
     )
 
 
@@ -214,7 +228,7 @@ with col2:
 # RQ2
 # =========================
 
-st.header("RQ2. What patterns characterize students’ discourse contributions?")
+st.header("RQ2. Patterns in students’ discourse contributions")
 
 students = filtered[filtered["role"] == "student"]
 
@@ -232,7 +246,7 @@ colorful_bar_chart(
     st_counts,
     "Student_Tag",
     "count",
-    "Student_Tag Distribution (Top 10)"
+    "Student Tag Distribution"
 )
 
 
@@ -240,7 +254,7 @@ colorful_bar_chart(
 # RQ3
 # =========================
 
-st.header("RQ3. How are teachers’ instructional intentions enacted in their discourse?")
+st.header("RQ3. Teacher instructional intentions × DialogAct")
 
 teachers = filtered[filtered["role"] == "teacher"]
 
@@ -254,5 +268,5 @@ ct_props.index.name = "Teacher_Tag"
 
 vega_heatmap(
     ct_props,
-    "Teacher_Tag × DialogAct (Proportion Heatmap)"
+    "Teacher_Tag × DialogAct (Row Proportions)"
 )
