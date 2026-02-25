@@ -53,7 +53,7 @@ def colorful_bar_chart(df, category_col, value_col, title):
             "color": {
                 "field": category_col,
                 "type": "nominal",
-                "scale": {"scheme": "category20"}  # 🎨 컬러 스킴
+                "scale": {"scheme": "category20"}  
             },
             "tooltip": [
                 {"field": category_col, "type": "nominal"},
@@ -82,7 +82,7 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
             "color": {
                 "field": "Proportion",
                 "type": "quantitative",
-                "scale": {"scheme": "tealblues"}  # 🎨 heatmap 컬러
+                "scale": {"scheme": "tealblues"}  # heatmap color
             },
             "tooltip": [
                 {"field": "Teacher_Tag"},
