@@ -23,19 +23,9 @@ def load_and_merge_xlsx(data_dir: str) -> pd.DataFrame:
         if not os.path.basename(f).startswith("~$")
     ]
 
-    if not xlsx_files:
-        raise FileNotFoundError(f"No .xlsx files found in: {data_dir}")
-
     dfs = []
     for path in xlsx_files:
         df = pd.read_excel(path, engine="openpyxl")
-
-        missing = [c for c in REQUIRED_COLS if c not in df.columns]
-        if missing:
-            raise ValueError(
-                f"File '{os.path.basename(path)}' is missing columns: {missing}"
-            )
-
         lesson_id = os.path.splitext(os.path.basename(path))[0]
         df["lesson_id"] = lesson_id
         dfs.append(df[REQUIRED_COLS + ["lesson_id"]])
@@ -47,10 +37,32 @@ def load_and_merge_xlsx(data_dir: str) -> pd.DataFrame:
 
     data["Turn_num"] = pd.to_numeric(data["Turn"], errors="coerce")
     data = data.sort_values(by=["lesson_id", "Turn_num"]).reset_index(drop=True)
-
     data["role"] = data["Speaker"].apply(get_role)
 
     return data
+
+
+def colorful_bar_chart(df, category_col, value_col, title):
+    spec = {
+        "title": title,
+        "data": {"values": df.to_dict(orient="records")},
+        "mark": {"type": "bar", "cornerRadiusTopLeft": 4, "cornerRadiusTopRight": 4},
+        "encoding": {
+            "x": {"field": category_col, "type": "nominal", "axis": {"labelAngle": -45}},
+            "y": {"field": value_col, "type": "quantitative"},
+            "color": {
+                "field": category_col,
+                "type": "nominal",
+                "scale": {"scheme": "category20"}  # 🎨 컬러 스킴
+            },
+            "tooltip": [
+                {"field": category_col, "type": "nominal"},
+                {"field": value_col, "type": "quantitative"},
+            ],
+        },
+    }
+
+    st.vega_lite_chart(spec, use_container_width=True)
 
 
 def vega_heatmap(df_props: pd.DataFrame, title: str):
@@ -67,14 +79,17 @@ def vega_heatmap(df_props: pd.DataFrame, title: str):
         "encoding": {
             "x": {"field": "DialogAct", "type": "nominal", "axis": {"labelAngle": -45}},
             "y": {"field": "Teacher_Tag", "type": "nominal"},
-            "color": {"field": "Proportion", "type": "quantitative"},
+            "color": {
+                "field": "Proportion",
+                "type": "quantitative",
+                "scale": {"scheme": "tealblues"}  # 🎨 heatmap 컬러
+            },
             "tooltip": [
-                {"field": "Teacher_Tag", "type": "nominal"},
-                {"field": "DialogAct", "type": "nominal"},
-                {"field": "Proportion", "type": "quantitative", "format": ".0%"},
+                {"field": "Teacher_Tag"},
+                {"field": "DialogAct"},
+                {"field": "Proportion", "format": ".0%"},
             ],
         },
-        "config": {"view": {"stroke": "transparent"}},
     }
 
     st.vega_lite_chart(spec, use_container_width=True)
@@ -89,24 +104,14 @@ st.title("📊 Classroom Discourse Dashboard")
 
 data = load_and_merge_xlsx(DATA_DIR)
 
-# Sidebar
+# Lesson filter만 유지
 st.sidebar.header("Filters")
-
 lessons = sorted(data["lesson_id"].unique())
 selected_lessons = st.sidebar.multiselect(
     "Select lessons", lessons, default=lessons
 )
 
-role_filter = st.sidebar.selectbox(
-    "Role filter",
-    ["all", "teacher", "student"]
-)
-
-# Apply filters
 filtered = data[data["lesson_id"].isin(selected_lessons)].copy()
-
-if role_filter != "all":
-    filtered = filtered[filtered["role"] == role_filter]
 
 
 # =========================
@@ -118,33 +123,28 @@ st.header("RQ1. How is classroom discourse distributed and dialog act types?")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("Turn frequency")
+    rq1_turns = (
+        filtered.groupby("role")
+        .size()
+        .reset_index(name="turn_count")
+    )
 
-    if role_filter == "all":
-        rq1_turns = (
-            filtered.groupby("role")
-            .size()
-            .rename("turn_count")
-            .reset_index()
-        )
-        st.bar_chart(rq1_turns.set_index("role")["turn_count"])
-    else:
-        st.metric(
-            label=f"Total turns ({role_filter})",
-            value=len(filtered)
-        )
+    colorful_bar_chart(rq1_turns, "role", "turn_count",
+                        "Teacher vs Student Turn Frequency")
 
 with col2:
-    st.subheader("DialogAct distribution (Top 10)")
-
     da_counts = (
         filtered["DialogAct"]
         .dropna()
         .value_counts()
         .head(10)
+        .reset_index()
     )
 
-    st.bar_chart(da_counts)
+    da_counts.columns = ["DialogAct", "count"]
+
+    colorful_bar_chart(da_counts, "DialogAct", "count",
+                        "DialogAct Distribution (Top 10)")
 
 
 # =========================
@@ -153,21 +153,20 @@ with col2:
 
 st.header("RQ2. What patterns characterize students’ discourse contributions?")
 
-if role_filter == "teacher":
-    st.info("Switch Role filter to 'student' or 'all' to view student analysis.")
-else:
-    students = filtered[filtered["role"] == "student"]
+students = filtered[filtered["role"] == "student"]
 
-    st.subheader("Student_Tag distribution (Top 10)")
+st_counts = (
+    students["Student_Tag"]
+    .dropna()
+    .value_counts()
+    .head(10)
+    .reset_index()
+)
 
-    st_counts = (
-        students["Student_Tag"]
-        .dropna()
-        .value_counts()
-        .head(10)
-    )
+st_counts.columns = ["Student_Tag", "count"]
 
-    st.bar_chart(st_counts)
+colorful_bar_chart(st_counts, "Student_Tag", "count",
+                    "Student_Tag Distribution (Top 10)")
 
 
 # =========================
@@ -176,22 +175,14 @@ else:
 
 st.header("RQ3. How are teachers’ instructional intentions enacted in their discourse?")
 
-if role_filter == "student":
-    st.info("Switch Role filter to 'teacher' or 'all' to view teacher analysis.")
-else:
-    teachers = filtered[filtered["role"] == "teacher"]
+teachers = filtered[filtered["role"] == "teacher"]
 
-    if len(teachers) == 0:
-        st.warning("No teacher data available for selected filter.")
-    else:
-        st.subheader("Teacher_Tag × DialogAct (Proportion Heatmap)")
+ct_counts = pd.crosstab(
+    teachers["Teacher_Tag"],
+    teachers["DialogAct"]
+)
 
-        ct_counts = pd.crosstab(
-            teachers["Teacher_Tag"],
-            teachers["DialogAct"]
-        )
+ct_props = ct_counts.div(ct_counts.sum(axis=1), axis=0).fillna(0)
+ct_props.index.name = "Teacher_Tag"
 
-        ct_props = ct_counts.div(ct_counts.sum(axis=1), axis=0).fillna(0)
-        ct_props.index.name = "Teacher_Tag"
-
-        vega_heatmap(ct_props, "Teacher_Tag × DialogAct (Row Proportions)")
+vega_heatmap(ct_props, "Teacher_Tag × DialogAct (Proportion Heatmap)")
